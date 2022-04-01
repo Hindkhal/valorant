@@ -1,0 +1,50 @@
+@import url("banner.css");
+@import url("buttons.css");
+@import url("cards.css");
+@import url("footer.css");
+
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+width: 80%;
+margin: 0 auto;
+}
+p{font-family: 'Red Hat Mono', monospace;
+font-size: medium;
+}
+
+#rest{ width: 100vw; }
+#rest2{width: 100vw;}
+
+.menu{background-color:#ea4357 ;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  justify-content: space-around;
+  position: static;
+  top: 0;
+}
+
+.menu a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menu a:hover {
+  background-color: white;
+  color: black;
+}
+
+.menu a.active {
+  background-color: #04AA6D;
+  color: white;
+}
